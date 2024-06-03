@@ -4,11 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login or Sign Up</title>
+    <style>
+        
+        .box{
+            background-color: beige;
+            border: 2px black solid;
+            display: flex;
+            position: relative;
+            left: 400px;
+            top: 200px;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            width: 500px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+            font-weight: 400;
+        }
+
+        .container{
+            background-color: black;
+            border: 5px rgb(255, 123, 0) solid;
+            justify-content: center;
+            align-content: center;
+            position: relative;
+            top: 200px;
+            left: 430px;
+            color: white;
+            box-sizing: border-box;
+            margin: 20px;
+            padding: 5px;
+            width: 400px;
+            font-family: cursive;
+            display: flex;
+            font-size: medium;
+        }
+
+               
+    </style>
 </head>
+
 <body>
-    <h1>Welcome</h1>
+
+    <div class="box">
+        Welcome
+    </div>
+
+    <div class="container">
     <p>Please choose an option:</p>
+
     <button onclick="location.href='login.html'">Login</button>
     <button onclick="location.href='signup.html'">Sign Up</button>
+   </div>
+
 </body>
 </html>
